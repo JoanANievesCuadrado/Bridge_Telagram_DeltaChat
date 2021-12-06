@@ -1,0 +1,8 @@
+EMAIL:
+PASSWORD:
+IMAP:imap.estudiantes.fisica.uh.cu
+IMAP_PORT:993
+SSL_IMAP:1
+SMTP:smtp.estudiantes.fisica.uh.cu
+SMTP_PORT:465
+SSL_SMTP:1
