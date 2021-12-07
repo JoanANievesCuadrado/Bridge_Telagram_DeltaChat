@@ -1,0 +1,7 @@
+greenlet==1.1.2
+psycopg2==2.8.6
+pyaes==1.6.1
+pyasn1==0.4.8
+rsa==4.8
+SQLAlchemy==1.4.22
+Telethon==1.23.0

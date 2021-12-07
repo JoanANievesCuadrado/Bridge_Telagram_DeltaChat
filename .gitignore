@@ -2,6 +2,5 @@ __pycache__
 __pycache__/*
 *.session-journal
 *.session
-*.session
 *.bat
 *.code-workspace

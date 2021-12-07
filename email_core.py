@@ -17,7 +17,6 @@ import base64
 import re 
 import asyncio
 from functools import wraps
-import numpy as np
 from telethon import utils
 import telethon.tl.types
 import string
@@ -148,7 +147,7 @@ class classMsgR(object):
         headers['Chat-Group-ID'] = self.msg['Chat-Group-ID']
         headers['Chat-Group-Name'] = self.msg['Chat-Group-Name']
         headers['In-Reply-To'] = self.msg['Message-ID']
-        headers['Message-ID'] = str(np.random.randint(10000, 1000000))
+        headers['Message-ID'] = str(random.randint(10000, 1000000))
         return headers
         
     def makeTo(self):
